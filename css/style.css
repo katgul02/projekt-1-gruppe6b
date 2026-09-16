@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #F5EDE5;
+}
+.hero {
+    background-image: url(/img/baggrundsbillede.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 2rem 8rem;
+}
+h1 {
+    margin: 0;
+    font-family: playfair display;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1;
+    color: #36502A
+}
+.mikrotitel{
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: light;
+    color: #36502A
+}
+.search{
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 100px;
+    box-shadow: 0 1px 1px;
+    padding: 1rem;
+}
+.search select{
+    min-width: 0;
+    border: 0;
+    font-family: Montserrat;
+    color: #6b6b6b;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+.search select:hover{
+    background-color: lightgray;
+    border-radius: 100px;
+}
+.searchcircle{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+border: none;
+background-color: #E2BB38;
+cursor: pointer;
+}
+.searchcircle:hover{
+    background-color: #BF9C25;
+}
