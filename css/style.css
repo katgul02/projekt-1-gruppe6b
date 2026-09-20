@@ -97,10 +97,24 @@ h1 {
     font-size: 50px;
     color: #36502A
 }
-.udforsk-mere p{
+.intro-tekst{
     margin: 0;
-    font-family: Montserrat;
-    font-weight: light;
-    line-height: 2em;
-    color: #36502A
+    line-height: 2.5em;
+    color: #36502A;
+}
+.intro-spg{
+    margin: 0;
+    line-height: 2.5em;
+    color: #36502A;
+}
+.eventyr-knap{
+    background-color: #E2BB38;
+    color: white;
+    border: 0;
+    border-radius: 100px;
+    padding:10px 20px;
+    cursor: pointer;
+}
+.eventyr-knap:hover {
+    background-color: #BF9C25;
 }
