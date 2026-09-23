@@ -6,7 +6,7 @@ body{
     background-color: #F5EDE5;
 }
 .hero {
-    background-image: url(/img/baggrundsbillede.jpg);
+    background-image: url(/projekt-1-gruppe6b/img/baggrundsbillede.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -117,4 +117,27 @@ body{
     }
     .eventyr-knap:hover {
         background-color: #BF9C25;
+    }
+    .rejseformer {
+        background-color: #F5EDE5;
+        padding: 3em 3em;
+        text-align: center;
+    }
+    .camping-par{
+        object-fit: cover;
+        width: 100%;
+        height: 600px;
+        border-radius: 1em;
+        margin-bottom: 2em;
+    }
+    .rejseformer h2{
+        color: #36502A;
+        text-align: left;
+        margin: 0;
+    }
+    .kort-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5em;
+        margin: 0;
     }

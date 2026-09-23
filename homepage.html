@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lige her</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/stylehomepage.css">
     ----Insæt header her----
 </head>
 <body>
+<!---BREAKPOINT-->
 <section class="hero">  
         <h1>Lige her</h1>
         <p class="mikrotitel">DANSKE EVENTYR LIGE OM HJØRNET</p>
@@ -45,6 +46,7 @@
         <span>+40.000 glade gæster</span>
     </div>
 </section>
+<!---BREAKPOINT-->
 <section class="udforsk-mere">
     <h2>Udforsk mere. Rejs kortere.</h2>
     <p class="intro-tekst">Ingen lange rejsetider eller dyre billetter. Udforsk lokale spots, træk stikket og find dit næste mikroeventyr på to minutter. </p>
@@ -52,12 +54,52 @@
 
     <button class="eventyr-knap"><strong>Find dit næste eventyr</strong></button>
 </section>
+<!---BREAKPOINT-->
 <section class="rejseformer">
-    <img class="camping-par" src="/img/billede2-pexels-pavel-danilyuk-9143452.jpg" alt="Par nyder camping">
-    <div class="mulighedskort">
-        <h2>Sådan kan du rejse</h2>
+    <img class="camping-par" src="img/billede2-pexels-pavel-danilyuk-9143452.jpg" alt="Par som nyder camping">
+    <h2>Sådan kan du rejse</h2>
 
+    <div class="kort-grid">
+
+        <article class="naturoplevelser">
+            <img class="natur-billede" src="img/naturoplevelser.jpg" alt="Danske naturoplevelser">
+                
+            <div class="naturoplevelser-default">
+                <h4>Danske naturoplevelser</h4>
+            </div>
+
+            <div class="naturoplevelser-hoverinfo">
+                <div class="naturoplevelser-hover">
+                    <span>Frisk luft</span>
+                    <span>Cykelafstand</span>
+                    <span>Magisk i solnedgang</span>
+                    <h4>Danske naturoplevelser</h4>
+                    <p>Skovens dybe, stille ro og kystens vilde bølger venter på dig.</p>
+                    <button class="natur-semere-knap" aria-label="Se mere"></button>
+                </div>
+            </div>
+        </article>
+
+         <article class="byoplevelser">
+            <img class="by-billede" src="img/byoplevelser.jpg">
+            
+            <div class="byoplevelser-default">
+                <h4>Eventyrlige byoplevelser</h4>
+            </div>
+
+            <div class="byoplevelser-hoverinfo">
+                <div class="byoplevelser-hover">
+                    <span>Gåafstand</span>
+                    <span>Studierabat</span>
+                    <span>Kaffe & gåture</span>
+                    <h4>Eventyrlige byoplevelser</h4>
+                    <p>Mærk byens summen, udforsk skjulte caféhjørner og skab gode minder med dem, du holder af.</p>
+                    <button class="by-semere-knap" aria-label="Se mere"></button>
+                </div>
+            </div>
+        </article>
     </div>
 </section>
+
 </body>
 </html>
