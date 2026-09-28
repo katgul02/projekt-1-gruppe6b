@@ -41,12 +41,11 @@ header{
     font-weight: 500;
 }
 
-.hovedmenu 
+
 .searchbar{
     display: flex;
     align-items: center;
     gap: 15px;
-
 }
 .searchfelt{
     display: flex;
