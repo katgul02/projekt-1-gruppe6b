@@ -8,7 +8,7 @@ header{
     padding: 20px 45px;
 }
 .logo img{
-    height: 45px;
+    height: 50px;
 }
 .topbar-midten{
     display: flex;
@@ -81,6 +81,7 @@ header{
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-weight:500;
+    text-decoration: none;
 }
 .lykke-knap:hover{
     background-color: #BF9C25;
@@ -111,3 +112,4 @@ body{
 
 
 }
+
