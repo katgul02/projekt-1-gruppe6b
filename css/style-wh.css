@@ -143,9 +143,8 @@ header {
     margin: 0 auto;
     padding: 25px 20px;
     background-color: ;
-
 }
-
+/* --------du mangler value på din background color--------- */
 .breadcrumb a {
     color: #333;
     text-decoration: none;
