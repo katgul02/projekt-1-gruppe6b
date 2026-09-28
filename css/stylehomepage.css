@@ -6,6 +6,7 @@ body{
     background-color: #F5EDE5;
 }
 /* header start */
+
 header{
     display: flex;
     align-items: center;
@@ -95,8 +96,10 @@ header{
     width: 20px;
     height: 20px;
 }
+
 /* header slut */
 /* hero start */
+
 .hero {
     background-image: url(/projekt-1-gruppe6b/img/baggrundsbillede.jpg);
     background-size: cover;
@@ -183,8 +186,10 @@ h1 {
     align-items: center;
     gap: 1em;
 }
+
 /* hero slut */
 /* udforsk mere sektion start */
+
 .udforsk-mere{
     background-color: #EBD8C4;
     text-align: center;
@@ -235,8 +240,10 @@ h1 {
         background-color: #BF9C25;
         color: black;
     }
+
 /* udforsk mere sektion slut */
 /* rejseformer start */
+
     .rejseformer {
         background-color: #F5EDE5;
         padding: 3em 3em;
@@ -256,8 +263,9 @@ h1 {
         margin: 0;
     }
     
-    /* rejseformer ikke slut endnu lol */
-    /* pointsystem start */
+/* rejseformer ikke slut endnu lol */
+/* pointsystem start */
+
     .point-sektion{
         background-color: #36502A;
         padding: 60px 40px;
@@ -322,8 +330,10 @@ h1 {
    .point-knap:hover{
     background-color: #BF9C25;
    }
-   /* pointsystem slut */
-   /* oplevelseskort-mikroeventyr */
+
+/* pointsystem slut */
+/* oplevelseskort-mikroeventyr start */
+
    .mikroeventyr{
     background-color: #F5EDE5;
     padding: 60px 40px;
@@ -432,4 +442,39 @@ h1 {
    .mikroeventyr-knap:hover{
     background-color: #BF9C25;
    }
+
 /* oplevelseskort done */
+/* læs mere om os start */
+
+.mereomos-sektion{
+    background-color: #EBD8C4;
+    text-align: center;
+    padding: 6em 1.5em;
+}
+.mereomos-sektion h2{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #36502A
+}
+.mereomos1,.mereomos2{
+    margin: 0;
+    line-height: 2.5em;
+    color: #36502A;
+    font-family: "Montserrat", sans-serif;;
+    padding: 10px;
+}
+.mereomos-knap{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #E2BB38;
+    color: black;
+    border: 0;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-decoration: none;
+    /* tilføj mellemrum til ovenstående tekst? */
+}
