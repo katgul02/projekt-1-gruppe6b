@@ -81,6 +81,7 @@ header{
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-weight:500;
+    text-decoration: none;
 }
 .lykke-knap:hover{
     background-color: #BF9C25;
@@ -255,10 +256,71 @@ header{
         text-align: left;
         margin: 0;
     }
-    .kort-grid{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.5em;
+    
+    /* rejseformer ikke slut endnu lol */
+    /* pointsystem start */
+    .point-sektion{
+        background-color: #36502A;
+        padding: 60px 40px;
+        text-align: center;
+    }
+    .point-titel{
+        position: relative;
+        display: inline-block;
+        margin-bottom: 60px;
+        text-align: left;
+    }
+    .point-titel h2{
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: white;
         margin: 0;
     }
-    /* testtesttest */
+    .sol2{
+        position: absolute;
+        top:-25px;
+        right:-45px;
+        width: 45px;
+    }
+    .point-trin{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+   .trin img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+   }
+   .trin h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin: 0 0 10px;
+   }
+   .trin p{
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+   }
+   .point-knap{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #E2BB38;
+    color: black;
+    border: 0;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-size: 16px;
+   }
+   .point-knap:hover{
+    background-color: #BF9C25;
+   }
+   /* pointsystem slut */
