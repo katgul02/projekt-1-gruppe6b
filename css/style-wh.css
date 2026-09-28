@@ -246,3 +246,101 @@ header {
     background-color: white;
     border-radius: 15px;
 }
+
+.booking-dato, 
+.booking-gæster {
+    display: flex;
+    gap: 20px; 
+}
+
+.booking-felt {
+    flex: 1;
+    text-align: left;
+}
+
+.booking-felt label {
+    display: block;
+    margin-bottom: 8px;
+
+}
+
+.booking-felt input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 8px;
+    
+}
+
+.booking-knap {
+    width: 100%;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e7b72f;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.booking-knap:hover {
+    opacity: 0.8;
+}
+
+.andre-ophold {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+    
+}
+
+.andre-ophold > h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.ophold-kort {
+    display: flex;
+    gap: 25px;
+}
+
+.ophold {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.ophold img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.ophold h3 {
+    font-size: 20px;
+    margin: 15px 0 8px;
+
+}
+
+.ophold p {
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+.læs-mere-knap {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e7b72f;
+    cursor:pointer;
+    font-family: "Montserrat",sans-serif;
+
+}
+
+.læs-mere-knap:hover {
+    opacity: 0.8;
+}
+
