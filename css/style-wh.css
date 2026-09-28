@@ -1,0 +1,248 @@
+*{
+   box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+header {
+    display:flex;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    gap: 25px;
+    margin-left: 40px;
+    
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.search {
+    margin-left: auto;
+
+}
+
+.search input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+
+}
+
+.prøv-lykken {
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url("/img-destination/Glamping\ telt-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    padding: 80px 70px;
+    position: relative;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 48px;
+    max-width: 600px;
+    margin: 0;
+}
+
+.hero >p {
+    color: white;
+    font-size: 22px;
+
+}
+
+.info-bar {
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    gap: 80px;
+    padding: 20px 40px;
+
+    background-color: #315f78;
+    color: white;
+}
+
+.info-bar p {
+    margin: 0px;
+}
+
+.optjenpoint {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+    background-color: #e7b72f;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 70px;
+    top: 80px;
+}
+
+.optjenpoint p {
+    margin: 0px;
+
+}
+
+.slider-prikker {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    
+}
+
+.slider-prikker span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* BREADCRUMB */
+.breadcrumb {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 20px;
+
+}
+
+.breadcrumb a {
+    color: #333;
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    margin: 0 10px;
+
+}
+
+/* Om Silkeborg */
+.om-silkeborg {
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: center;
+    
+}
+
+.om-silkeborg h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.om-silkeborg h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.om-silkeborg p {
+    line-height: 1.6;
+}
+
+.aktiviteter {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+
+}
+
+.aktiviteter >h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+
+}
+
+.aktiviteter >p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.aktivitets-kort {
+    display: flex;
+    gap: 25px;
+
+}
+
+.aktivitet {
+    flex: 1;
+}
+
+.aktivitet img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+    border-radius: 60%;
+}
+
+.aktivitet h3 {
+    font-size: 20px;
+    margin: 15px 0 8px;
+    text-align: center;
+}
+
+.aktivitet p {
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+.aktivitet:nth-child(2) img{
+    object-position: center 20%;
+}
+
+.booking {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #f4f4f0;
+}
+
+.booking h2 {
+    font-size: 36px;
+    margin: 0 0 10px;
+
+}
+
+.booking >p {
+    margin: 0 0 40px;
+}
+
+.booking-formular {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 15px;
+}
