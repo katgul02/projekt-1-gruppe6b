@@ -385,6 +385,74 @@ h1 {
     margin-top: 20px;
 }
 /* rejseformer  slut nu lol */
+
+/* anmeldelserstart */
+.anmeldelser{
+    padding: 20px 40px 40px;
+}
+.anmeldelser-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin: 0;
+}
+.anmeldelser-good{
+    width: 200px;
+}
+.anmeldelse-good h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #315f78;
+    margin: 0 0 12px;
+}
+.good-stjerner {
+    height: 32px;
+    margin-bottom: 12px;
+}
+.anmeldelser-antal {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #6b6b6b;
+    margin: 0;
+}
+.anmeldelser-antal a {
+    color: black;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.anmeldelser-liste {
+    display: flex;
+    gap: 30px;
+    flex: 1;
+}
+.stjerner-kort {
+    height: 22px;
+    margin-bottom: 14px;
+}
+.kunde {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6b6b6b;
+    margin: 0 0 8px;
+}
+.anmeldelse-kort h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    margin: 0 0 8px;
+}
+.kunde-tekst {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6b6b6b;
+    margin: 0;
+}
+
+
 /* pointsystem start */
 
 .point-sektion{
