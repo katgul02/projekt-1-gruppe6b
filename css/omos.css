@@ -1,10 +1,10 @@
 
 /* Header start */
 .hero {
-    min-height: 800px;
+    min-height: 700px;
     background-image: url(/img.2/baggrund.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: 120%;
+    background-position: 30% 20%;
     background-repeat: no-repeat;
 }
 
