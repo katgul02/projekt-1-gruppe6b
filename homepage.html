@@ -18,7 +18,7 @@
             <a href="/projekt-1-gruppe6b/homepage.html" class="aktiv">Hjem</a>
             <a href="/projekt-1-gruppe6b/construction.html">Find dit eventyr</a>
             <a href="/projekt-1-gruppe6b/Omos.html">Om os</a>
-                <!-- undersøg om det er html filen man skal linke til -->
+                <!---------------- undersøg om det er html filen man skal linke til --------------------->
             <a href="/projekt-1-gruppe6b/construction.html">Point</a>
         </nav>
 
@@ -30,7 +30,6 @@
                 </button>
             </form>
             <a href="/projekt-1-gruppe6b/destinationsside.html" class="lykke-knap">Prøv lykken</a>
-            <!-- <button class="lykke-knap">Prøv lykken</button> -->
         </div>
     </div>
 
@@ -81,6 +80,7 @@
             <option>+ 4 timer</option>
         </select>
         <button class="searchcircle" aria-label="Søg">
+            <img src="/projekt-1-gruppe6b/img/search-black.svg" alt="søgeikon">
         </button>
     </div>
     <div class="stats">
@@ -103,8 +103,64 @@
 <!---udforsk mere slut-->
 <!-- rejseformer start -->
 <section class="rejseformer">
+    <h2 class="rejsetitel">Sådan kan du rejse</h2>
+    <p class="opholdtekst">Find et ophold, der matcher dit humør</p>
+    <div class="rejseformer-kort">
+        <div class="oplevelser-container">
+            <div class="oplevelser">
+                <img class="oplevelse-billede" src="/projekt-1-gruppe6b/img/naturoplevelser.jpg" alt="danske naturoplevelser">
+                <div class="oplevelse-titel">
+                    <h3>Danske<br>naturoplevelser</h3>
+                </div>
+
+                <div class="oplevelse-info">
+                    <h4>Danske naturoplevelser</h4>
+                    <p>Skovens dybe, stille ro og kystens vilde bølger venter på dig.</p>
+                </div>
+
+                <a href="/projekt-1-gruppe6b/construction.html" class="oplevelse-pil" aria-label="Se mere">
+                    <img src="/projekt-1-gruppe6b/img/arrow-right-black.svg" alt="pil">
+                </a>
+            </div>
+
+            <div class="oplevelser">
+                <img class="oplevelse-billede" src="/projekt-1-gruppe6b/img/byoplevelser.jpg" alt="eventyrlige byoplevelser">
+                <div class="oplevelse-titel">
+                    <h3>Eventyrlige<br>byoplevelser</h3>
+                </div>
+
+                <div class="oplevelse-info">
+                    <h4>Eventyrlige byoplevelser</h4>
+                    <p>Mærk byens summen, udforsk skjulte cafékroge og skab gode minder med dem, du holder af.</p>
+                </div>
+
+                <a href="/projekt-1-gruppe6b/construction.html" class="oplevelse-pil" aria-label="Se mere">
+                    <img src="/projekt-1-gruppe6b/img/arrow-right-black.svg" alt="pil">
+                </a>
+            </div>
+
+            <div class="oplevelser">
+                <img class="oplevelse-billede" src="/projekt-1-gruppe6b/img/hemmeligespots-kopi.jpg" alt="hemmelige spots">
+                <div class="oplevelse-titel">
+                    <h3>Hemmelige<br>spots</h3>
+                </div>
+
+                <div class="oplevelse-info">
+                    <h4>Hemmelige spots</h4>
+                    <p>Gå på opdagelse i det uventede, skæve spots, lokale hemmeligheder og nye favoritter.</p>
+                </div>
+
+                <a href="/projekt-1-gruppe6b/construction.html" class="oplevelse-pil" aria-label="Se mere">
+                    <img src="/projekt-1-gruppe6b/img/arrow-right-black.svg" alt="pil">
+                </a>
+        </div>
+    </div>
+    <div class="drom">
+        <h2 class="find-din">Find din næste drømmeoplevelse</h2>
+        <p class="find-din-tekst">Lad rejsen begynde nu</p>
+    </div>
+
     <img class="camping-par" src="img/billede2-pexels-pavel-danilyuk-9143452.jpg" alt="Par som nyder camping">
-    <h2>Sådan kan du rejse</h2>
 </section>
 <!-- pointsystem start -->
 <section class="point-sektion">
@@ -126,7 +182,7 @@
         <div class="trin">
             <img src="/projekt-1-gruppe6b/img/success (1).png">
             <h3>Indløs fordele</h3>
-            <p>Få gratis kaffee, rabat eller lokal oplevelse</p>
+            <p>Få gratis kaffe, rabat eller lokal oplevelse</p>
         </div>
     </div>
     <button class="point-knap">Læs mere om point her</button>
@@ -135,6 +191,7 @@
 <!-- oplevelseskort start -->
  <section class="mikroeventyr">
     <h2>Håndplukkede mikroeventyr</h2>
+    <p>Udforsk håndplukkede eventyr og oplev Danmark på din måde</p>
     <div class="kortcontaineromg">
         <div class="mikroeventyr-kort">
             <div class="mikroeventyr-billede">
@@ -252,11 +309,60 @@
 
     <a href="/projekt-1-gruppe6b/Omos.html" class="mereomos-knap">Læs mere om os her</a>
 </section>
+<section class="inspirations-sektion">
+    <div class="inspiration">
+        <div class="inspiration-tekst">
+            <h2>Få inspiration til dit næste <br> eventyr</h2>
+            <p class="inspotekst">Vær først til at opdage nye, unikke eventyr og rejsehistorier </p>
+            <form class="inspiration-tilmeld">
+                <input type="text" placeholder="Fornavn">
+                <input type="text" placeholder="E-mail">
+                <button aria-label="tilmeld">Tilmeld dig</button>
+            </form>
+            <p class="lilletekst">Ved tilmelding accepterer du, at vi må sende dig inspiration og guider. Dette er den vigtigste tekst på hele siden. Vi lyver. Hvis du læser dette, skylder vi dig en kop kaffe. Psst... hvis du stadig læser dette, er du allerede bedre forberedt på dit næste eventyr. 
+            Du kan altid afmelde dig. Læs vores <a href="/projekt-1-gruppe6b/construction.html">privatslivspolitik</a></p>
+        </div>
+    </div>
+    <div class="inspiration-billede">
+        <img src="/projekt-1-gruppe6b/img/pexels-pavel-danilyuk-9143482.jpg" alt="camping par">
+    </div>
+</section>
 <footer>
     <!-- logo -->
     <!-- email -->
     <!-- tlfnummer -->
      <!-- test test test -->
 </footer>
+<footer>
+    <div class="footer-indhold">
+        <div class="footer-kolonne">
+            <h3>Destinationer</h3>
+            <a href="#">Top 25 ophold</a>
+            <a href="#">Cykelruter</a>
+            <a href="#">Alle destinationer</a>
+        </div>
+        <div class="footer-kolonne">
+            <h3>Kontakt</h3>
+            <a href="#">Lige@her.dk</a>
+            <a href="#">+45 35304519</a>
+            <a href="#">Privatlivspolitik</a>
+        </div>
+        <div class="footer-logo">
+            <img src="/projekt-1-gruppe6b/img-destination/Logo.png" alt="Lige Her Logo">
+        </div>
+        <div class="footer-kolonne">
+            <h3>Sociale Medier</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Tiktok</a>
+        </div>
+        <div class="footer-kolonne">
+            <h3>Mere</h3>
+            <a href="#">Søg job</a>
+            <a href="#">Giv en anmeldelse</a>
+            <a href="#">Presse</a>
+        </div>
+    </div>
+    </footer>
 </body>
 </html>
