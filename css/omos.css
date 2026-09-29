@@ -1,5 +1,17 @@
+* {
+box-sizing: border-box;
+margin: 0;
+}
 
 /* Header start */
+.hero {
+    min-height: 700px;
+    background-image: url(/img.2/baggrund.jpg);
+    background-size: 120%;
+    background-position: 30% 20%;
+    background-repeat: no-repeat;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -24,7 +36,7 @@ header{
 .hovedmenu a{
     color: #62745A;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 11px;
     padding-bottom: 5px;
 }
 .hovedmenu a:hover{
@@ -41,19 +53,20 @@ header{
     font-weight: 500;
 }
 
-
 .searchbar{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 0px;
 }
 .searchfelt{
     display: flex;
     align-items: center;
     background-color: white;
     border-radius: 100px;
-    padding: 2px 4px 1px 20px;
+    padding: 2px 5px 2px 20px;
     box-shadow: 0 1px 1px;
+    position: relative;
+    z-index: 2;
 }
 .searchfelt input{
     border: 0;
@@ -61,6 +74,8 @@ header{
     font-size: 13px;
     padding: 6px 0;
     font-family: "Montserrat", sans-serif;
+    text-align: left;
+    width: 200px;
 }
 .search-vector-knap{
     width: 40px;
@@ -70,18 +85,24 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .lykke-knap{
     background-color: #E2BB38;
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     border: 0;
     border-radius: 100px;
-    padding: 10px 20px;
+    width: 130px;
+    padding: 12px 15px;
+    text-align: right;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-weight:500;
     text-decoration: none;
+    margin-left: -40px;
+    z-index: 1;
+    box-shadow: 0 1px 1px;
 }
 .lykke-knap:hover{
     background-color: #BF9C25;
@@ -95,21 +116,82 @@ header{
     width: 20px;
     height: 20px;
 }
+
+.solskin{
+    width: 130px;
+    display: block;
+    justify-content: center;
+    margin: 90px auto 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 0 2px 1px rgb(0, 26, 0);
+}
 /* Header slut */
 
-* {
-box-sizing: border-box;
-margin: 0;
-}
-body{
-
-    background-color: #F1E9E2;
-
-    background-image: url(/img.2/topbillede.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-
+body {
+    background-color: #F5EDE5;
 }
 
+
+/* Vi ville også ud og se verden section */
+.vivilleogså {
+    color: #36502A;
+    text-align: center;
+}
+.vivilleogså .p1 {
+    font-size: 20px;
+    font-family:"montserrat", sans-serif ;
+    margin: 10px 0 20px;
+}
+
+.vivilleogså .p2 {
+    font-size: 20px;
+    font-family:"montserrat", sans-serif ;
+    margin: 10px 0 100px;
+}
+
+.vivilleogså h2{
+    font-size: 40px;
+    font-family: "playfair display", serif;
+    margin: 100px 0 50px;
+}
+
+.vivilleogså img {
+    width: 60px;
+    position: absolute;
+    top: 775px;
+    right: 540px;
+}
+/* VVOUOSV section SLUT */
+
+
+
+/* Vores mission section */
+.voresmission {
+    background-color: #36502A;
+    min-height: 600px;
+    color: #F5EDE5;
+    text-align: center;
+}
+h2 {
+  font-size: 40px;
+    font-family: "playfair display", serif;
+    margin: 0 0 50px;
+}
+.voresmission p {
+    font-size: 17px;
+    font-family:"montserrat", sans-serif ;
+}
+.tekst-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.voresmission img{
+    height: 140px;
+    justify-content: center;
+
+}
