@@ -165,10 +165,33 @@ body {
     top: 775px;
     right: 540px;
 }
+/* VVOUOSV section SLUT */
+
+
 
 /* Vores mission section */
 .voresmission {
     background-color: #36502A;
+    min-height: 600px;
     color: #F5EDE5;
     text-align: center;
+}
+h2 {
+  font-size: 40px;
+    font-family: "playfair display", serif;
+    margin: 0 0 50px;
+}
+.voresmission p {
+    font-size: 17px;
+    font-family:"montserrat", sans-serif ;
+}
+.tekst-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.voresmission img{
+    height: 140px;
+    justify-content: center;
+
 }
