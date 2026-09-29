@@ -85,6 +85,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .lykke-knap{
     background-color: #E2BB38;
@@ -132,4 +133,42 @@ h1{
 
 body {
     background-color: #F5EDE5;
+}
+
+
+/* Vi ville også ud og se verden section */
+.vivilleogså {
+    color: #36502A;
+    text-align: center;
+}
+.vivilleogså .p1 {
+    font-size: 20px;
+    font-family:"montserrat", sans-serif ;
+    margin: 10px 0 20px;
+}
+
+.vivilleogså .p2 {
+    font-size: 20px;
+    font-family:"montserrat", sans-serif ;
+    margin: 10px 0 100px;
+}
+
+.vivilleogså h2{
+    font-size: 40px;
+    font-family: "playfair display", serif;
+    margin: 100px 0 50px;
+}
+
+.vivilleogså img {
+    width: 60px;
+    position: absolute;
+    top: 775px;
+    right: 540px;
+}
+
+/* Vores mission section */
+.voresmission {
+    background-color: #36502A;
+    color: #F5EDE5;
+    text-align: center;
 }
