@@ -6,6 +6,7 @@ body{
     background-color: #F5EDE5;
 }
 /* header start */
+
 header{
     display: flex;
     align-items: center;
@@ -95,8 +96,10 @@ header{
     width: 20px;
     height: 20px;
 }
+
 /* header slut */
 /* hero start */
+
 .hero {
     background-image: url(/projekt-1-gruppe6b/img/baggrundsbillede.jpg);
     background-size: cover;
@@ -112,153 +115,156 @@ header{
 .titellogo{  
     text-align: center;
 }
-    h1 {
-        margin: -40px 0 0 0;
-        font-family: "Playfair Display", serif;
-        font-weight: 700;
-        font-size: 100px;
-        line-height: 1;
-        color: #36502A
-    }
-    .titellogo img{
-        width: 140px;
-        
-    }
-    .mikrotitel{
-        margin: 0;
-        font-family: "Montserrat", sans-serif;
-        font-weight: light;
-        color: #36502A
-    }
-    .search{
-        display: flex;
-        align-items: center;
-        background: white;
-        border-radius: 100px;
-        box-shadow: 0 1px 1px;
-        padding: .25em;
-        gap: 2.5em;
-        font-family: "Montserrat", sans-serif;
-    }
-    .search select{
-        min-width: 0;
-        border: 0;
-        border-radius: 100px;
-        font-family: "Montserrat", sans-serif;
-        color: #6b6b6b;
-        text-align: center;
-        cursor: pointer;
-        padding: 1em;
-    }
-    .search select:hover{
-        background-color: lightgray;
-        border-radius: 100px;
-    }
-    .searchcircle{
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border: none;
-        background-color: #E2BB38;
-        cursor: pointer;
-    }  
-    .searchcircle:hover{
-        background-color: #BF9C25;
-    }
-    .stats{
-        background-color: #395D77;
-        display: flex;
-        gap: 5em;
-        padding: 1em;
-        color: white;
-        font-size: 10px;
-        position: absolute;
-        justify-content: center;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        font-family: "Montserrat", sans-serif;;
-    }   
-    .stats span {
-        display: inline-flex;
-        align-items: center;
-        gap: 1em;
-    }
-    /* hero slut */
-    /* udforsk mere sektion start */
+h1 {
+    margin: -40px 0 0 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1;
+    color: #36502A
+}
+.titellogo img{
+    width: 140px;
+}
+.mikrotitel{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: light;
+    color: #36502A
+}
+.search{
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 100px;
+    box-shadow: 0 1px 1px;
+    padding: .25em;
+    gap: 2.5em;
+    font-family: "Montserrat", sans-serif;
+}
+.search select{
+    min-width: 0;
+    border: 0;
+    border-radius: 100px;
+    font-family: "Montserrat", sans-serif;
+    color: #6b6b6b;
+    text-align: center;
+    cursor: pointer;
+    padding: 1em;
+}
+.search select:hover{
+    background-color: lightgray;
+    border-radius: 100px;
+}
+.searchcircle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #E2BB38;
+    cursor: pointer;
+}  
+.searchcircle:hover{
+    background-color: #BF9C25;
+}
+.stats{
+    background-color: #395D77;
+    display: flex;
+    gap: 5em;
+    padding: 1em;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: "Montserrat", sans-serif;;
+}   
+.stats span {
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+}
+
+/* hero slut */
+/* udforsk mere sektion start */
+
 .udforsk-mere{
     background-color: #EBD8C4;
     text-align: center;
     padding: 6em 1.5em;
 }
-    .udforsk-mere h2{
-        margin: 0;
-        font-family: "Playfair Display", serif;
-        font-weight: 700;
-        font-size: 50px;
-        color: #36502A
-    }
-    .intro-tekst{
-        margin: 0;
-        line-height: 2.5em;
-        color: #36502A;
-        font-family: "Montserrat", sans-serif;;
-    }
-    .intro-spg{
-        margin: 0;
-        line-height: 2.5em;
-        color: #36502A;
-        font-family: "Montserrat", sans-serif;
-    }
-    .sol1-knap{
-        position: relative;
-        display: inline-block;
-        margin-top: 30px;
-    
-    }
-    .sol1{
-        position: absolute;
-        top:-30px;
-        right:-20px;
-        width: 50px;
-    }
-    .eventyr-knap{
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        background-color: #E2BB38;
-        color: black;
-        border: 0;
-        border-radius: 100px;
-        padding:10px 20px;
-        cursor: pointer;
-    }
-    .eventyr-knap:hover {
-        background-color: #BF9C25;
-        color: black;
-    }
+.udforsk-mere h2{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #36502A;
+}
+.intro-tekst{
+    margin: 0;
+    line-height: 2.5em;
+    color: #36502A;
+    font-family: "Montserrat", sans-serif;
+}
+.intro-spg{
+    margin: 0;
+    line-height: 2.5em;
+    color: #36502A;
+    font-family: "Montserrat", sans-serif;
+}
+.sol1-knap{
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+.sol1{
+    position: absolute;
+    top:-30px;
+    right:-20px;
+    width: 50px;
+}
+.eventyr-knap{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: #E2BB38;
+    color: black;
+    border: 0;
+    border-radius: 100px;
+    padding:10px 20px;
+    cursor: pointer;
+}
+.eventyr-knap:hover {
+    background-color: #BF9C25;
+    color: black;
+}
+
 /* udforsk mere sektion slut */
 /* rejseformer start */
-    .rejseformer {
-        background-color: #F5EDE5;
-        padding: 3em 3em;
-        text-align: center;
-    }
-    .camping-par{
-        object-fit: cover;
-        width: 100%;
-        height: 600px;
-        border-radius: 1em;
-        margin-bottom: 2em;
-    }
-    .rejseformer h2{
-        color: #36502A;
-        font-family: "Playfair Display", serif;
-        text-align: left;
-        margin: 0;
-    }
+
+.rejseformer {
+    background-color: #F5EDE5;
+    padding: 3em 3em;
+    text-align: center;
+}
+.camping-par{
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+.rejseformer h2{
+    color: #36502A;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    margin: 0;
+}
     
-    /* rejseformer ikke slut endnu lol */
-    /* pointsystem start */
+/* rejseformer ikke slut endnu lol */
+/* pointsystem start */
+
     .point-sektion{
         background-color: #36502A;
         padding: 60px 40px;
@@ -323,4 +329,151 @@ header{
    .point-knap:hover{
     background-color: #BF9C25;
    }
-   /* pointsystem slut */
+
+/* pointsystem slut */
+/* oplevelseskort-mikroeventyr start */
+
+   .mikroeventyr{
+    background-color: #F5EDE5;
+    padding: 60px 40px;
+   }
+   .kortcontaineromg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+   }
+   .mikroeventyr h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #36502A;
+    margin: 0 0 30px;
+   }
+   .mikroeventyr-kort{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 1px;
+    max-width: 400px;
+   }
+   .mikroeventyr-billede{
+    position: relative;
+   }
+   .mikro-foto{
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+   }
+   .hjerte-knap{
+    position: absolute;
+    cursor: pointer;
+    top: 12px;
+    right: 12px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: 0; 
+    background: transparent;
+   }
+   .mikroeventyr-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15px;
+   }
+   .mikroeventyr-tekst h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 0 8px;
+   }
+   .mikroeventyr-tekst p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #36502A;
+    margin: 0 0 20px;
+   }
+   .read-mere{
+    display: inline-block;
+    background-color: #bfbebe;
+    color: black;
+    font-family:"Montserrat", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 4px 10px;
+    box-shadow: 0 1px 1px;
+   }
+   .read-mere:hover{
+    background-color: #a0a0a0;
+   }
+   .point-bobbel{
+    width: 110px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #395D77;
+    color: white;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 20px 40px 20px 40px;
+   }
+.mikro-knap
+/* indsæt det ind i midten */
+
+.mikroeventyr-knap{
+    background-color: #E2BB38;
+    color: black;
+    font-size: 14px;
+    border: 0;
+    border-radius: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    text-decoration: none;
+   }
+   .mikroeventyr-knap:hover{
+    background-color: #BF9C25;
+   }
+
+/* oplevelseskort done */
+/* læs mere om os start */
+
+.mereomos-sektion{
+    background-color: #EBD8C4;
+    text-align: center;
+    padding: 6em 1.5em;
+}
+.mereomos-sektion h2{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #36502A
+}
+.mereomos1,.mereomos2{
+    margin: 0;
+    line-height: 2.5em;
+    color: #36502A;
+    font-family: "Montserrat", sans-serif;;
+    padding: 10px;
+}
+.mereomos-knap{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #E2BB38;
+    color: black;
+    border: 0;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-decoration: none;
+    /* tilføj mellemrum til ovenstående tekst? */
+}
