@@ -351,7 +351,6 @@ h1 {
 .oplevelser:hover .oplevelse-info {
     opacity: 1;
 }
-
 .oplevelser:hover .oplevelse-titel {
     opacity: 0;
 }
@@ -388,57 +387,57 @@ h1 {
 /* rejseformer  slut nu lol */
 /* pointsystem start */
 
-    .point-sektion{
-        background-color: #36502A;
-        padding: 60px 40px;
-        text-align: center;
-    }
-    .point-titel{
-        position: relative;
-        display: inline-block;
-        margin-bottom: 60px;
-        text-align: left;
-    }
-    .point-titel h2{
-        font-family: "Playfair Display", serif;
-        font-weight: 700;
-        font-size: 40px;
-        color: white;
-        margin: 0;
-    }
-    .sol2{
-        position: absolute;
-        top:-25px;
-        right:-45px;
-        width: 45px;
-    }
-    .point-trin{
-        display: flex;
-        justify-content: center;
-        gap: 60px;
-        flex-wrap: wrap;
-        margin-bottom: 50px;
-    }
-   .trin img{
+.point-sektion{
+    background-color: #36502A;
+    padding: 60px 40px;
+    text-align: center;
+}
+.point-titel{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 60px;
+    text-align: left;
+}
+.point-titel h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+.sol2{
+    position: absolute;
+    top:-25px;
+    right:-45px;
+    width: 45px;
+}
+.point-trin{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.trin img{
     width: 90px;
     height: 90px;
     margin-bottom: 20px;
-   }
-   .trin h3{
+}
+.trin h3{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: white;
     margin: 0 0 10px;
-   }
-   .trin p{
+}
+.trin p{
     font-family: "Montserrat",sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: white;
     margin: 0;
-   }
-   .point-knap{
+}
+.point-knap{
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
     cursor: pointer;
@@ -449,58 +448,57 @@ h1 {
     padding: 10px 20px;
     font-size: 15px;
     box-shadow: 0 1px 1px;
-   }
-   .point-knap:hover{
+}
+.point-knap:hover{
     background-color: #BF9C25;
    }
 
 /* pointsystem slut */
 /* oplevelseskort-mikroeventyr start */
 
-   .mikroeventyr{
+.mikroeventyr{
     background-color: #F5EDE5;
     padding: 60px 40px;
-   }
-   .kortcontaineromg{
+}
+.kortcontaineromg{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
     margin-bottom: 40px;
-   }
-   .mikroeventyr h2{
+}
+.mikroeventyr h2{
     font-family: "Playfair Display", serif;
     font-weight: 700;
     font-size: 40px;
     color: #36502A;
     margin: 0 0 30px;
-   }
-   .mikroeventyr p{
+}
+.mikroeventyr p{
     font-family: "Montserrat", sans-serif;
     color: #36502A;
     text-align: left;
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 20px;
-
-   }
-   .mikroeventyr-kort{
+}
+.mikroeventyr-kort{
     background-color: white;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 1px 1px;
     max-width: 400px;
-   }
-   .mikroeventyr-billede{
+}
+.mikroeventyr-billede{
     position: relative;
-   }
-   .mikro-foto{
+}
+.mikro-foto{
     display: block;
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-   }
-   .hjerte-knap{
+}
+.hjerte-knap{
     position: absolute;
     cursor: pointer;
     top: 12px;
@@ -510,26 +508,26 @@ h1 {
     padding: 0;
     border: 0; 
     background: transparent;
-   }
-   .mikroeventyr-info{
+}
+.mikroeventyr-info{
     display: flex;
     justify-content: space-between;
     gap: 15px;
     margin-top: 15px;
-   }
-   .mikroeventyr-tekst h3{
+}
+.mikroeventyr-tekst h3{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 18px;
     margin: 0 0 8px;
-   }
-   .mikroeventyr-tekst p{
+}
+.mikroeventyr-tekst p{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: #36502A;
     margin: 0 0 20px;
-   }
-   .read-mere{
+}
+.read-mere{
     display: inline-block;
     background-color: #bfbebe;
     color: black;
@@ -539,11 +537,11 @@ h1 {
     border-radius: 100px;
     padding: 4px 10px;
     box-shadow: 0 1px 1px;
-   }
-   .read-mere:hover{
+}
+.read-mere:hover{
     background-color: #a0a0a0;
-   }
-   .point-bobbel{
+}
+.point-bobbel{
     width: 110px;
     height: 85px;
     display: flex;
@@ -555,7 +553,7 @@ h1 {
     font-weight: 600;
     font-size: 16px;
     border-radius: 20px 40px 20px 40px;
-   }
+}
 .mikro-knap{
     text-align: center;
     margin-top: 50px;
@@ -573,10 +571,10 @@ h1 {
     font-weight:500;
     text-decoration: none;
     box-shadow: 0 1px 1px;
-   }
+}
    .mikroeventyr-knap:hover{
     background-color: #BF9C25;
-   }
+}
 .sol-knap{
     position: relative;
     display: inline-block;
