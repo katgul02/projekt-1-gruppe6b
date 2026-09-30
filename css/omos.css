@@ -18,11 +18,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
     padding: 20px 45px;
 }
 .logo img{
-    height: 50px;
+    height: 70px;
 }
 .topbar-midten{
     display: flex;
@@ -260,6 +260,123 @@ h2 {
     margin: 0;
     font-family:"montserrat", sans-serif;
 }
+
+/*-------------------------------  Lige her, i tal ------------------------------- */
+.ligeherital{
+    position: relative;
+    min-height: 900px;
+    text-align: center;
+    padding-top: 120px;
+}
+.bokspng{
+    position: absolute;
+    z-index: 0;
+    width: 80%;
+    left: 10%;
+}
+.ligeherital h3{
+    position: absolute;
+    color: #36502A;
+    font-size: 60px;
+    top: 200px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.topaflogopng {
+    position: absolute;
+    height: 70px;
+    top: 148px;
+    left: 680px;
+    z-index: 1;
+}
+
+
+/*-------------------------------  Lige her, i tal SLUT ------------------------------- */
+
+
+
+/*------------------------------- Tilmeld nyhedsbrev -------------------------------*/
+.inspirations-sektion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 80px 90px;
+}
+.inspiration{
+    flex: 1;
+}
+.inspiration-tekst{
+    max-width: 850px;
+}
+.inspiration-tekst h2{
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 700;
+    color: #36502A;
+    margin: 0 0 35px;
+}
+.inspotekst{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #36502A;
+}
+.inspiration-tilmeld input{
+    height: 40px;
+    padding: 0 20px;
+    border: 2px solid #E2BB38;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.inspiration-tilmeld button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #E2BB38;
+    color: black;
+    border: 0;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px; 
+    box-shadow: 0 1px 1px;
+}
+.inspiration-tilmeld button:hover{
+    background-color: #BF9C25;
+}
+.lilletekst{
+    max-width: 800px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #6b6b6b;
+    margin-top: 20px;
+}
+.lilletekst a{
+    color: #6b6b6b;
+}
+.inspiration-billede{
+    flex: 0 0 45%;
+}
+.inspiration-billede img{
+    display: block;
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+/*------------------------------- Tilmeld nyhedsbrev SLUT -------------------------------*/
+
+
 
 /*------------------------------- Footer start -------------------------------*/
 footer {
