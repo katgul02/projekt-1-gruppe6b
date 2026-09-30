@@ -367,7 +367,7 @@ header{
 
 }
 
-.aktiviteter-indhold > h2::after, .booking h2::after, .andre-ophold > h2::after, .lokation > h2::after {
+.aktiviteter-indhold > h2::after, .booking > h2::after, .lokation > h2::after, .mikroeventyr > h2::after {
     content: "";
     display: block;
     width: 50px;
@@ -410,6 +410,7 @@ header{
 .booking {
     padding: 70px 20px;
     text-align: center;
+    
     
 }
 
@@ -481,16 +482,28 @@ header{
     background-color: #BF9C25;
 }
 
-.andre-ophold {
-    max-width: 1200px;
-    margin: 0 auto;
+
+
+.mikroeventyr{
     padding: 70px 20px;
     
 }
+.kortcontaineromg{
+    max-width: 1100px;
+    margin: 0 auto;
 
-.andre-ophold > h2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    
+}
+.mikroeventyr h2{
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    color: #36502A;
+    margin: 0 0 12px;
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 40px;
 }
 
@@ -503,32 +516,114 @@ header{
     flex: 1;
     padding: 15px;
     background-color: white;
-    border: none;
-    border-radius: 15px;
-
-    display: flex;
-    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.10);
+    
 }
-
-.ophold img {
+.mikroeventyr-billede{
+    position: relative;
+}
+.mikro-foto{
+    display: block;
     width: 100%;
-    height: 230px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 8px;
+}
+.hjerte-knap{
+    position: absolute;
+    cursor: pointer;
+    top: 12px;
+    right: 12px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: 0; 
+    background: transparent;
+}
+.mikroeventyr-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 15px;
+    margin-top: 15px;
+    
 }
 
-.ophold h3 {
-    font-size: 20px;
-    margin: 15px 0 8px;
-
+.mikroeventyr-tekst {
+    text-align: center;
 }
 
-.ophold p {
-    font-size: 14px;
-    line-height: 1.5;
+.mikroeventyr-tekst h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 0 8px;
+}
+.mikroeventyr-tekst p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #36502A;
     margin: 0 0 20px;
-    color: #555;
+}
+.read-mere{
+    display: inline-block;
+    background-color: #bfbebe;
+    color: black;
+    font-family:"Montserrat", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 4px 10px;
+    box-shadow: 0 1px 1px;
+}
+.read-mere:hover{
+    background-color: #a0a0a0;
+}
+.point-bobbel{
+    width: 110px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #395D77;
+    color: white;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 20px 40px 20px 40px;
+}
+.mikro-knap{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mikroeventyr-knap{
+    background-color: #E2BB38;
+    color: black;
+    font-size: 15px;
+    border: 0;
+    border-radius: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    text-decoration: none;
+    box-shadow: 0 1px 1px;
+}
+   .mikroeventyr-knap:hover{
+    background-color: #BF9C25;
+}
+.sol-knap{
+    position: relative;
+    display: inline-block;
+}
+.sol3 {
+    position: absolute;
+    top: -40px;
+    right: -20px;
+    width: 50px;
 }
 
 .læs-mere-knap {
@@ -544,12 +639,6 @@ header{
 
 }
 
-.ophold .læs-mere-knap {
-    margin-top:auto;
-    align-self: flex-start;
-    font-weight: 500;
-}
-
 .læs-mere-knap:hover {
     background-color: #BF9C25;
 }
@@ -557,13 +646,14 @@ header{
 .lokation {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 90px 20px;
+    padding: 70px 20px;
     text-align: center;
+
 }
 
 .lokation > h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 0px;
 
 }
@@ -635,5 +725,5 @@ footer {
 .aktiviteter-indhold h2{
     font-family: "Playfair Display", serif;
     text-align: center;
-    font-size: 36px;
+    
 }
