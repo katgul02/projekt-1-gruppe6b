@@ -90,6 +90,7 @@ header{
     font-family: "Montserrat", sans-serif;
     font-weight:500;
     text-decoration: none;
+    box-shadow: 0 1px 1px;
 }
 .lykke-knap:hover{
     background-color: #BF9C25;
@@ -301,7 +302,7 @@ h1 {
 .oplevelser{
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 300px;
     height: 390px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.10);
@@ -327,9 +328,10 @@ h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 24px;
-    color: #315f78;
+    color: #395D77;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
 }
 .oplevelse-info {
     position: absolute;
@@ -548,13 +550,14 @@ h1 {
 
 .mikroeventyr{
     background-color: #F5EDE5;
-    padding: 60px 40px;
+    padding: 60px 160px;
 }
 .kortcontaineromg{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+    grid-template-columns: repeat(3,350px);
+    gap: 40px;
     margin-bottom: 40px;
+    justify-content: center;
 }
 .mikroeventyr h2{
     font-family: "Playfair Display", serif;
@@ -574,9 +577,9 @@ h1 {
 .mikroeventyr-kort{
     background-color: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.10);
-    max-width: 400px;
+    
 }
 .mikroeventyr-billede{
     position: relative;
@@ -682,7 +685,7 @@ h1 {
 .mereomos-sektion{
     background-color: #EBD8C4;
     text-align: center;
-    padding: 6em 1.5em;
+    padding: 80px 100px;
 }
 .mereomos-sektion h2{
     margin: 0;
