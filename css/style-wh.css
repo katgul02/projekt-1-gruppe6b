@@ -4,52 +4,99 @@
 
 body {
     margin:0;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Montserrat",sans-serif;
+    color: #36502A;
 
 }
 
-header {
-    display:flex;
-    align-items: center;
-    padding: 15px 40px;
-}
-
-.logo img {
-    width: 90px;
-    height: auto;
-}
-
-.navigation {
+header{
     display: flex;
-    gap: 25px;
-    margin-left: 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px 45px;
+}
+.logo img{
+    height: 45px;
+}
+.topbar-midten{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.hovedmenu{
+    display: flex;
+    gap: 30px;
+}
+.hovedmenu a{
+    color: #62745A;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.hovedmenu a:hover{
+    color: #36502A;
+}
+.hovedmenu a.aktiv{
+    color: #36502A;
+    font-weight:500;
+    text-decoration: underline;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
     
 }
-
-.navigation a {
-    text-decoration: none;
-    color: #333;
-    font-size: 15px;
+.searchfelt{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+    padding: 2px 4px 1px 20px;
+    box-shadow: 0 1px 1px;
 }
-
-.search {
-    margin-left: auto;
-
+.searchfelt input{
+    border: 0;
+    outline: none;
+    font-size: 13px;
+    padding: 6px 0;
+    font-family: "Montserrat", sans-serif;
 }
-
-.search input {
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-
+.search-vector-knap{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.prøv-lykken {
-    margin-left: 15px;
+.lykke-knap{
+    background-color: #E2BB38;
+    color: black;
+    font-size: 14px;
+    border: 0;
+    border-radius: 100px;
     padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
     cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    text-decoration: none;
+}
+.lykke-knap:hover{
+    background-color: #BF9C25;
+}
+.topbar-ikoner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.topbar-ikoner img{
+    width: 20px;
+    height: 20px;
 }
 
 .hero {
@@ -120,6 +167,11 @@ header {
 
 }
 
+h1, h2, h3 {
+    font-family: "Playfair Display",serif;
+    font-weight: 900;
+}
+
 .slider-prikker {
     position: absolute;
     bottom: 25px;
@@ -143,6 +195,7 @@ header {
     margin: 0 auto;
     padding: 25px 20px;
     background-color: ;
+
 }
 /* --------du mangler value på din background color--------- */
 .breadcrumb a {
@@ -161,20 +214,18 @@ header {
     padding: 70px 20px;
     text-align: center;
 
-    background-color: #294d3a;
-    color: white;
     
 }
 
 .om-silkeborg h2 {
     font-size: 36px;
-    margin-bottom: 0 0 10px;
+    margin: 0 0 10px;
 }
 
 .om-silkeborg h3 {
     font-size: 20px;
-    font-weight: normal;
-    margin-bottom: 0 auto 25px;
+    font-weight: 500;
+    margin: 0 auto 25px;
 }
 
 .om-silkeborg p {
@@ -184,28 +235,45 @@ header {
 }
 
 .aktiviteter {
+    max-width: 100%;
+    padding: 70px 20px;
+    background-color: #36502A;
+    color: white;
+
+}
+
+.aktiviteter-indhold {
     max-width: 1200px;
-    margin: 80px auto 60px;
-    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.aktiviteter-indhold > h2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 42px;
+    margin: 0 0 10px;
 
 }
 
-.aktiviteter >h2 {
+.aktiviteter > .aktiviteter-indhold > p {
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 10px;
-
-}
-
-.aktiviteter >p {
-    text-align: center;
-    margin-bottom: 40px;
+    margin: 0 0 40px;
 }
 
 .aktivitets-kort {
     display: flex;
     gap: 25px;
 
+}
+
+.aktiviteter-indhold > h2::after, .booking h2::after, .andre-ophold > h2::after, .lokation > h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #E7B72F;
+    margin: 12px auto 0;
+    border-radius: 10px;
 }
 
 .aktivitet {
@@ -221,9 +289,11 @@ header {
 }
 
 .aktivitet h3 {
-    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
     margin: 15px 0 8px;
     text-align: center;
+    min-height: 48px;
 }
 
 .aktivitet p {
@@ -239,7 +309,7 @@ header {
 .booking {
     padding: 70px 20px;
     text-align: center;
-    background-color: #f4f4f0;
+    
 }
 
 .booking h2 {
@@ -253,11 +323,12 @@ header {
 }
 
 .booking-formular {
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 35px;
+    padding: 40px;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.7);
 }
 
 .booking-dato, 
@@ -275,38 +346,43 @@ header {
 .booking-felt label {
     display: block;
     margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #36502A
 
 }
 
 .booking-felt input {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
     font-family: inherit;
-    background-color: white;
+    background-color: #f8f8f6;
     
 }
 
 .booking-knap {
     width: 100%;
-    padding: 12px 35px;
+    padding: 14px 35px;
     border: none;
-    border-radius: 20px;
+    border-radius: 100px;
     background-color: #e7b72f;
+    font-family: inherit;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 500;
 
 }
 
 .booking-knap:hover {
-    opacity: 0.8;
+    background-color: #BF9C25;
 }
 
 .andre-ophold {
     max-width: 1200px;
-    margin: 80px auto;
-    padding: 0 20px;
+    margin: 0 auto;
+    padding: 70px 20px;
     
 }
 
@@ -324,13 +400,18 @@ header {
 .ophold {
     flex: 1;
     padding: 15px;
-    border: 1px solid grey;
+    background-color: white;
+    border: none;
     border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.7);
 }
 
 .ophold img {
     width: 100%;
-    height: 250px;
+    height: 230px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -342,8 +423,10 @@ header {
 }
 
 .ophold p {
+    font-size: 14px;
     line-height: 1.5;
     margin: 0 0 20px;
+    color: #555;
 }
 
 .læs-mere-knap {
@@ -353,17 +436,23 @@ header {
     background-color: #e7b72f;
     cursor:pointer;
     font-family: inherit;
+    font-weight: 500;
 
 }
 
+.ophold .læs-mere-knap {
+    margin-top:auto;
+    align-self: flex-start;
+}
+
 .læs-mere-knap:hover {
-    opacity: 0.8;
+    background-color: #BF9C25;
 }
 
 .lokation {
     max-width: 1200px;
-    margin: 80px auto;
-    padding: 0 20px;
+    margin: 0 auto;
+    padding: 70px 20px;
 }
 
 .lokation > h2 {
@@ -430,3 +519,31 @@ footer {
     width: 100px;
     height: auto;
 }
+
+.side-indhold {
+    max-width: 100%;
+    background-color: #f4f4f0;
+}
+
+.aktiviteter-indhold h2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.aktiviteter-indhold > p, .booking > p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+

@@ -5,37 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glamping i Silkeborg</title>
     <link rel="stylesheet" href="/css/style-wh.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="/img-destination/Logo.png" alt="Lige Her Logo">
-        </div>
-        
-        <nav class="navigation">
-            <a href="#">Hjem</a>
-            <a href="#">Find dit eventyr</a>
-            <a href="#">Om os</a>
-            <a href="#">Point</a>
-            <a href="#">Min Profil</a>
+         <a href="/projekt-1-gruppe6b/homepage.html" class="logo">
+        <img src="/img-destination/Logo.png" alt="logo">
+    </a>
+
+    <div class="topbar-midten">
+        <nav class="hovedmenu">
+            <a href="/projekt-1-gruppe6b/homepage.html">Hjem</a>
+            <a href="/projekt-1-gruppe6b/construction.html">Find dit eventyr</a>
+            <a href="/projekt-1-gruppe6b/Omos.html">Om os</a>
+                <!-- undersøg om det er html filen man skal linke til -->
+            <a href="/projekt-1-gruppe6b/construction.html">Point</a>
         </nav>
 
-
-        <div class="search">
-            <input type="text" placeholder="Søg">
-            </div>
-
-
-        <button class="prøv-lykken">
-            Prøv lykken
-        </button>
-        
-        <div class="header-ikoner">
-
+        <div class="searchbar">
+            <form class="searchfelt" role="search">
+                <input type="text" placeholder="Find dit næste eventyr"="Søg">
+                <button class="search-vector-knap" aria-label="Søg">
+                    <img src="/img/search.svg" alt="search">
+                </button>
+            </form>
+            <a href="/projekt-1-gruppe6b/destinationsside.html" class="lykke-knap">Prøv lykken</a>
+            <!-- <button class="lykke-knap">Prøv lykken</button> -->
         </div>
-    
+    </div>
 
+    <div class="topbar-ikoner">
+        <a href="/projekt-1-gruppe6b/construction.html" aria-label="Favoritter">
+            <img src="/img/HjerteVector.svg" alt="Favoritter">
+        </a>
+        <a href="/projekt-1-gruppe6b/construction.html" aria-label="Min profil">
+            <img src="/img/BrugerVector.svg" alt="Min profil">
+        </a>
+        <a href="/projekt-1-gruppe6b/construction.html" aria-label="Menu">
+            <img src="/img/MenuVector.svg">
+        </a>
+    </div>
     </header>
 
     <main>
@@ -118,13 +132,16 @@
 
         
         </section>
+        <div class="side-indhold">
 
         <section class="aktiviteter">
+            <div class="aktiviteter-indhold">
 
             <h2>Aktiviteter i Området</h2>
             <p>
                 Se de mest populære aktiviteter i Silkeborg
             </p>
+        
 
             <div class ="aktivitets-kort">
                 <article class="aktivitet">
@@ -158,6 +175,8 @@
                     Oplev alt fra oddere til fisk i Aqua Silkeborg
                 </p>
                 </article>
+
+                </div>
 
             </div>
             
