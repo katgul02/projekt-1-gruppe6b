@@ -2,8 +2,10 @@
 box-sizing: border-box;
 margin: 0;
 }
-
-/* Header start */
+body {
+    background-color: #F5EDE5;
+}
+/*------------------------------- Header start -------------------------------*/
 .hero {
     min-height: 700px;
     background-image: url(/img.2/baggrund.jpg);
@@ -36,7 +38,7 @@ header{
 .hovedmenu a{
     color: #62745A;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 16px;
     padding-bottom: 5px;
 }
 .hovedmenu a:hover{
@@ -71,7 +73,7 @@ header{
 .searchfelt input{
     border: 0;
     outline: none;
-    font-size: 13px;
+    font-size: 16px;
     padding: 6px 0;
     font-family: "Montserrat", sans-serif;
     text-align: left;
@@ -90,10 +92,10 @@ header{
 .lykke-knap{
     background-color: #E2BB38;
     color: black;
-    font-size: 12px;
+    font-size: 16px;
     border: 0;
     border-radius: 100px;
-    width: 130px;
+    width: 150px;
     padding: 12px 15px;
     text-align: right;
     cursor: pointer;
@@ -129,26 +131,23 @@ h1{
     color: white;
     text-shadow: 0 2px 1px rgb(0, 26, 0);
 }
-/* Header slut */
-
-body {
-    background-color: #F5EDE5;
-}
+/*------------------------------- Header slut -------------------------------*/
 
 
-/* Vi ville også ud og se verden section */
+
+/*------------------------------- Vi ville også ud og se verden section -------------------------------*/
 .vivilleogså {
     color: #36502A;
     text-align: center;
 }
 .vivilleogså .p1 {
-    font-size: 20px;
+    font-size: 24px;
     font-family:"montserrat", sans-serif ;
     margin: 10px 0 20px;
 }
 
 .vivilleogså .p2 {
-    font-size: 20px;
+    font-size: 24px;
     font-family:"montserrat", sans-serif ;
     margin: 10px 0 100px;
 }
@@ -165,11 +164,22 @@ body {
     top: 775px;
     right: 540px;
 }
-/* VVOUOSV section SLUT */
+
+.vvh2::after {
+content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #E2BB38;
+    margin: 15px auto 0;
+    border-radius: 10px;
+    /* gul linje under h2 i Vi ville også section */
+}
+/*------------------------------- VVOUOSV section SLUT -------------------------------*/
 
 
 
-/* Vores mission section */
+/*------------------------------- Vores mission section -------------------------------*/
 .voresmission {
     position: relative;
     background-color: #36502A;
@@ -187,7 +197,7 @@ h2 {
 }
 .voresmission p {
     font-size: 17px;
-    font-family:"montserrat", sans-serif ;
+    font-family:"montserrat", sans-serif;
     margin-top: 30px;
 }
 .tekst-container {
@@ -203,10 +213,94 @@ h2 {
 }
 .voresmission img{
     height: 140px;
-    margin: 0 153px;
+    margin: 0 155px;
 }
-.solskin2 {
-    position: absolute;
-    
-    
+
+.vmh2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #E2BB38;
+    margin: 15px auto 0;
+    border-radius: 10px;
+    /* gul linje under h2 i VM section */
 }
+/*------------------------------- Vores mission SLUT -------------------------------*/
+
+.mødmenneskerne {
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.mødmenneskerne h3{
+    font-size: 40px;
+    font-family: "playfair display", serif;
+    margin-bottom: 80px;
+    color: #36502A;
+}
+.personer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.person {
+    text-align: center;
+    width: 200px;
+}
+.person img{
+    height: 140px;
+}
+.person h4{
+    margin: 20px 0 10px;
+    font-size: 20px;
+}
+.person p{
+    margin: 0;
+    font-family:"montserrat", sans-serif;
+}
+
+/*------------------------------- Footer start -------------------------------*/
+footer {
+    background-color: #315f78;
+    color: white;
+    padding: 50px 40px;
+}
+
+.footer-indhold {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-kolonne {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-kolonne a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-kolonne a:hover {
+    opacity: 0.8;
+}
+
+.footer-kolonne h3 {
+    margin: 0 0 10px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+/*------------------------------- Footer SLUT -------------------------------*/
