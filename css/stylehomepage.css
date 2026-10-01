@@ -13,8 +13,13 @@ header{
     justify-content: space-between;
     gap: 30px;
     padding: 20px 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
     background-color: rgba(255, 255, 255, 0.65);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(0px);
 }
 .logo img{
     height: 45px;
@@ -85,6 +90,7 @@ header{
     font-family: "Montserrat", sans-serif;
     font-weight:500;
     text-decoration: none;
+    box-shadow: 0 1px 1px;
 }
 .lykke-knap:hover{
     background-color: #BF9C25;
@@ -111,8 +117,9 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    padding: 4rem 2rem 8rem;
+    gap: 30px;
+    padding: 160px 30px 120px;
+     min-height: 100vh; 
 }
 .titellogo{  
     text-align: center;
@@ -152,7 +159,7 @@ h1 {
     color: #6b6b6b;
     text-align: center;
     cursor: pointer;
-    padding: 1em;
+    padding: 15px;
 }
 .search select:hover{
     background-color: lightgray;
@@ -176,10 +183,11 @@ h1 {
 .stats{
     background-color: #395D77;
     display: flex;
-    gap: 5em;
-    padding: 1em;
+    gap: 90px;
+    padding: 12px;
     color: white;
-    font-size: 10px;
+    font-size: 14px;
+    font-style: italic;
     position: absolute;
     justify-content: center;
     left: 0;
@@ -190,7 +198,7 @@ h1 {
 .stats span {
     display: inline-flex;
     align-items: center;
-    gap: 1em;
+    gap: 10px;
 }
 
 /* hero slut */
@@ -219,13 +227,13 @@ h1 {
 }
 .intro-tekst{
     margin: 0;
-    line-height: 2.5em;
+    line-height: 2.5;
     color: #36502A;
     font-family: "Montserrat", sans-serif;
 }
 .intro-spg{
     margin: 0;
-    line-height: 2.5em;
+    line-height: 2.5;
     color: #36502A;
     font-family: "Montserrat", sans-serif;
 }
@@ -262,7 +270,7 @@ h1 {
 
 .rejseformer {
     background-color: #F5EDE5;
-    padding: 3rem 3rem;
+    padding: 50px 80px;
     text-align: center;
 }
 .rejsetitel{
@@ -288,13 +296,15 @@ h1 {
     display: flex;
     gap: 20px;
     margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
 }  
 .oplevelser{
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
-    width: 33%;
-    height: 500px;
+    border-radius: 10px;
+    width: 300px;
+    height: 390px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.10);
 }
 .oplevelse-billede{
@@ -318,9 +328,10 @@ h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 24px;
-    color: #315f78;
+    color: #395D77;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
 }
 .oplevelse-info {
     position: absolute;
@@ -539,13 +550,14 @@ h1 {
 
 .mikroeventyr{
     background-color: #F5EDE5;
-    padding: 60px 40px;
+    padding: 60px 160px;
 }
 .kortcontaineromg{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+    grid-template-columns: repeat(3,350px);
+    gap: 40px;
     margin-bottom: 40px;
+    justify-content: center;
 }
 .mikroeventyr h2{
     font-family: "Playfair Display", serif;
@@ -565,9 +577,9 @@ h1 {
 .mikroeventyr-kort{
     background-color: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.10);
-    max-width: 400px;
+    
 }
 .mikroeventyr-billede{
     position: relative;
@@ -673,7 +685,7 @@ h1 {
 .mereomos-sektion{
     background-color: #EBD8C4;
     text-align: center;
-    padding: 6em 1.5em;
+    padding: 80px 100px;
 }
 .mereomos-sektion h2{
     margin: 0;
