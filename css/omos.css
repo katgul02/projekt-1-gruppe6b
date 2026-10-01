@@ -2,9 +2,11 @@
 box-sizing: border-box;
 margin: 0;
 }
+
 body {
     background-color: #F5EDE5;
 }
+
 /*------------------------------- Header start -------------------------------*/
 .hero {
     min-height: 700px;
@@ -20,10 +22,14 @@ header{
     justify-content: space-between;
     gap: 10px;
     padding: 20px 45px;
+    background-color: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(0px);
 }
+
 .logo img{
     height: 70px;
 }
+
 .topbar-midten{
     display: flex;
     flex-direction: column;
@@ -31,19 +37,23 @@ header{
     gap: 15px;
     font-family: "Montserrat", sans-serif;
 }
+
 .hovedmenu{
     display: flex;
     gap: 30px;
 }
+
 .hovedmenu a{
     color: #62745A;
     text-decoration: none;
     font-size: 16px;
     padding-bottom: 5px;
 }
+
 .hovedmenu a:hover{
     color: #36502A;
 }
+
 .hovedmenu a.hjem{
     color: #62745A;
     font-weight:500;
@@ -60,6 +70,7 @@ header{
     align-items: center;
     gap: 0px;
 }
+
 .searchfelt{
     display: flex;
     align-items: center;
@@ -70,6 +81,7 @@ header{
     position: relative;
     z-index: 2;
 }
+
 .searchfelt input{
     border: 0;
     outline: none;
@@ -79,6 +91,7 @@ header{
     text-align: left;
     width: 200px;
 }
+
 .search-vector-knap{
     width: 40px;
     height: 40px;
@@ -89,6 +102,7 @@ header{
     justify-content: center;
     cursor: pointer;
 }
+
 .lykke-knap{
     background-color: #E2BB38;
     color: black;
@@ -106,14 +120,17 @@ header{
     z-index: 1;
     box-shadow: 0 1px 1px;
 }
+
 .lykke-knap:hover{
     background-color: #BF9C25;
 }
+
 .topbar-ikoner{
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .topbar-ikoner img{
     width: 20px;
     height: 20px;
@@ -125,6 +142,7 @@ header{
     justify-content: center;
     margin: 90px auto 0 auto;
 }
+
 h1{
     text-align: center;
     font-size: 70px;
@@ -140,14 +158,15 @@ h1{
     color: #36502A;
     text-align: center;
 }
+
 .vivilleogså .p1 {
-    font-size: 24px;
+    font-size: 20px;
     font-family:"montserrat", sans-serif ;
     margin: 10px 0 20px;
 }
 
 .vivilleogså .p2 {
-    font-size: 24px;
+    font-size: 20px;
     font-family:"montserrat", sans-serif ;
     margin: 10px 0 100px;
 }
@@ -168,7 +187,7 @@ h1{
 .vvh2::after {
 content: "";
     display: block;
-    width: 50px;
+    width: 100px;
     height: 3px;
     background-color: #E2BB38;
     margin: 15px auto 0;
@@ -190,11 +209,13 @@ content: "";
     z-index: 1;
     box-shadow: inset 0 0 30px #0c2102
 }
+
 h2 {
   font-size: 40px;
     font-family: "playfair display", serif;
     margin-bottom: 80px;
 }
+
 .voresmission p {
     font-size: 17px;
     font-family:"montserrat", sans-serif;
@@ -205,14 +226,16 @@ h2 {
   position: relative;
   z-index: 2;
 }
+
 .tekst-container {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 60px;
     position: relative;
     z-index: 2;
     /* sætter teksterne ved siden af hinanden */
 }
+
 .tekst-container p{
     width: 350px;
     text-align: center;
@@ -221,7 +244,7 @@ h2 {
 
 .voresmission > img:not(.citypng){
     height: 140px;
-    margin: 0 155px;
+    margin: 0 135px;
     position: relative;
     z-index: 2;
 }
@@ -229,13 +252,14 @@ h2 {
 .vmh2::after {
     content: "";
     display: block;
-    width: 50px;
+    width: 100px;
     height: 3px;
     background-color: #E2BB38;
     margin: 15px auto 100px;
     border-radius: 10px;
     /* gul linje under h2 i VM section */
 }
+
 .citypng {
     position: absolute;
     bottom: 0;
@@ -247,11 +271,14 @@ h2 {
 }
 /*------------------------------- Vores mission SLUT -------------------------------*/
 
+
+/* Mød menneskerne bag */
 .mødmenneskerne {
     position: relative;
     text-align: center;
     padding-top: 70px;
 }
+
 
 .mødmenneskerne h3{
     font-size: 40px;
@@ -259,22 +286,27 @@ h2 {
     margin-bottom: 80px;
     color: #36502A;
 }
+
 .personer {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
+
 .person {
     text-align: center;
     width: 200px;
 }
+
 .person img{
     height: 140px;
 }
+
 .person h4{
     margin: 20px 0 10px;
     font-size: 20px;
 }
+
 .person p{
     margin: 0;
     font-family:"montserrat", sans-serif;
@@ -283,57 +315,66 @@ h2 {
 /*-------------------------------  Lige her, i tal ------------------------------- */
 .ligeherital{
     position: relative;
-    min-height: 900px;
+    min-height: 800px;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 200px;
 }
+
 .bokspng{
     position: absolute;
     z-index: 0;
     width: 80%;
+    height: 400px;
     left: 10%;
+    object-fit: fill;
 }
+
 .ligeherital h3{
     position: absolute;
     color: #36502A;
-    font-size: 60px;
-    top: 225px;
+    font-size: 50px;
+    top: 270px;
     left: 0;
     right: 0;
     z-index: 1;
 }
+
 .topaflogopng {
     position: absolute;
-    height: 70px;
-    top: 170px;
-    left: 680px;
+    height: 60px;
+    top: 220px;
+    left: 700px;
     z-index: 1;
 }
+
 .tal-container {
     position: absolute;
-    top: 430px;
-    left: 10%;
-    width: 80%;
+    top: 390px;
+    left: 15%;
+    width: 70%;
     display: flex;
     justify-content: center;
     z-index: 1;
 }
+
 .tal-item {
     flex: 1;
     text-align: center;
-    padding: 0 30px;
 }
+
 .ikon{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
 }
+
 .tal-item h4{
     font-family: "Playfair Display", serif;
-    font-size: 32px;
+    font-size: 27px;
     color: #36502A;
     margin: 10px 0 0;
 }
+
 .tal-item p{
     font-family: "Montserrat", sans-serif;
     color: #36502A;
@@ -345,13 +386,85 @@ h2 {
 
 
 /*------------------------------- Hvad siger andre section -------------------------------*/
+.hvadsigerandre{
+    min-height: 650px;
+    background-color: #EACDB0;
+    color: #36502A;
+    text-align: center;
+    padding: 90px 160px;
+}
 
+.hvadsigerandre>h3{
+font-size: 50px;
+margin-bottom: 15px;
+}
 
+.hvadsigerandre>h3::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #E2BB38;
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
 
+.anmeldelse-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
 
+.stjerner{
+    width: 100px;
+    height: auto;
+}
 
+.hvadsigerandre>p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
 
+.anmeldelsecontainer p{
+    text-align: left;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
 
+.anmeldelsecontainer h4{
+    text-align: left;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.anmeldelsecontainer{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    gap: 50px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.anmeldelse-boks{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.10);
+    height: 240px;
+}
+
+.anmeldelse-billede{
+    position: relative;
+}
+
+.foto{
+    display: block;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
 /*------------------------------- Hvad siger andre section SLUT -------------------------------*/
 
 
@@ -362,7 +475,7 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 70px;
-    padding: 80px 90px;
+    padding: 100px 100px;
 }
 .inspiration{
     flex: 1;
