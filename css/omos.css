@@ -187,9 +187,9 @@ content: "";
     color: #F5EDE5;
     text-align: center;
     padding-top: 70px;
+    z-index: 1;
     box-shadow: inset 0 0 30px #0c2102
 }
-
 h2 {
   font-size: 40px;
     font-family: "playfair display", serif;
@@ -200,10 +200,17 @@ h2 {
     font-family:"montserrat", sans-serif;
     margin-top: 30px;
 }
+
+.vmh2 {
+  position: relative;
+  z-index: 2;
+}
 .tekst-container {
     display: flex;
     justify-content: center;
     gap: 100px;
+    position: relative;
+    z-index: 2;
     /* sætter teksterne ved siden af hinanden */
 }
 .tekst-container p{
@@ -211,9 +218,12 @@ h2 {
     text-align: center;
     /* Giver hver enkel p den samme bredde */
 }
-.voresmission img{
+
+.voresmission > img:not(.citypng){
     height: 140px;
     margin: 0 155px;
+    position: relative;
+    z-index: 2;
 }
 
 .vmh2::after {
@@ -222,9 +232,18 @@ h2 {
     width: 50px;
     height: 3px;
     background-color: #E2BB38;
-    margin: 15px auto 0;
+    margin: 15px auto 100px;
     border-radius: 10px;
     /* gul linje under h2 i VM section */
+}
+.citypng {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
 }
 /*------------------------------- Vores mission SLUT -------------------------------*/
 
@@ -278,7 +297,7 @@ h2 {
     position: absolute;
     color: #36502A;
     font-size: 60px;
-    top: 200px;
+    top: 225px;
     left: 0;
     right: 0;
     z-index: 1;
@@ -286,13 +305,54 @@ h2 {
 .topaflogopng {
     position: absolute;
     height: 70px;
-    top: 148px;
+    top: 170px;
     left: 680px;
     z-index: 1;
 }
-
+.tal-container {
+    position: absolute;
+    top: 430px;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.tal-item {
+    flex: 1;
+    text-align: center;
+    padding: 0 30px;
+}
+.ikon{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+.tal-item h4{
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    color: #36502A;
+    margin: 10px 0 0;
+}
+.tal-item p{
+    font-family: "Montserrat", sans-serif;
+    color: #36502A;
+    margin: 0;
+}
 
 /*-------------------------------  Lige her, i tal SLUT ------------------------------- */
+
+
+
+/*------------------------------- Hvad siger andre section -------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------- Hvad siger andre section SLUT -------------------------------*/
 
 
 
@@ -317,7 +377,7 @@ h2 {
     font-size: 35px;
     line-height: 1;
     font-weight: 700;
-    color: #F5EDE5;
+    color: #36502A;
     margin: 0 0 10px;
 }
 .inspotekst{
@@ -327,7 +387,7 @@ h2 {
     margin-bottom: 35px;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    color: #F5EDE5;
+    color: #36502A;
     justify-content: center;
 }
 .inspiration-tilmeld input{
