@@ -251,11 +251,12 @@ header{
 .om-silkeborg h2 {
     margin: 0 0 10px;
     
+    
 }
 
 .om-silkeborg h3 {
-    font-size: 18px;
-    font-weight: 650;
+    font-size: 16px;
+    font-weight: 700;
     margin: 0 auto 25px;
 }
 
@@ -731,5 +732,17 @@ footer {
     height: auto;
 }
 
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.social-link img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
 
 
