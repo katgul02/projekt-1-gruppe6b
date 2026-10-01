@@ -300,60 +300,55 @@ h1 {
     flex-wrap: wrap;
 }  
 .oplevelser{
+    text-align: left;
+    max-width: 300px;
+}
+.oplevelse-boks{
     position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    width: 300px;
-    height: 390px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.10);
 }
 .oplevelse-billede{
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: block;
+    width: 100%;
+    height: 400px;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.10);
 }
-.oplevelse-titel{
+.oplevelse-label{
     position: absolute;
-    top: 0;
-    left: 0;
-    padding: 30px;
-    box-sizing: border-box;
-    text-align: center;
-    width: 100%;
-}
-.oplevelse-titel h3 {
+    top: 20px;
+    left: 20px;
+    background-color: rgba(240, 240, 240, 0.928);
+    color: black;
     font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    color: #395D77;
-    text-transform: uppercase;
-    margin: 0;
-    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.10);
+
 }
 .oplevelse-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 30px;
-    background-color: #36502A;
-    color: white;
-    opacity: 0;
+    padding: 0 5px;
 }
 .oplevelse-info h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    margin: 0 0 10px;
+    font-weight: 600;
+    color: #36502A;
+    margin: 25px 0 10px;
+    
 }
 .oplevelse-info p {
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
     margin: 20px;
+    color: #36502A;
+    margin: 0;
+}
+.oplevelse-info a{
+    color: #36502A;
 }
 .oplevelse-pil {
     position: absolute;
@@ -371,12 +366,6 @@ h1 {
 .oplevelse-pil img {
     width: 25px;
     height: 25px;
-}
-.oplevelser:hover .oplevelse-info {
-    opacity: 1;
-}
-.oplevelser:hover .oplevelse-titel {
-    opacity: 0;
 }
 .drom{
     height: 200px;
@@ -406,7 +395,7 @@ h1 {
     height: 600px;
     border-radius: 15px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 /* rejseformer  slut nu lol */
 
@@ -496,6 +485,15 @@ h1 {
     font-size: 40px;
     color: white;
     margin: 0;
+}
+.point-titel > h2::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #E7B72F;
+    margin: 12px auto 0;
+    border-radius: 10px;
 }
 .sol2{
     position: absolute;
@@ -806,7 +804,7 @@ h1 {
 }
 /* footer */
 footer {
-    background-color: #315f78;
+    background-color: #315F78;
     color: white;
     padding: 50px 40px;
     font-family: "Montserrat",sans-serif;
@@ -840,4 +838,15 @@ footer {
 .footer-logo img {
     width: 100px;
     height: auto;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.social-link img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
