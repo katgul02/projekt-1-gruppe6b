@@ -470,7 +470,7 @@ header{
     width: 100%;
     padding: 20px 40px;
     border: none;
-    border-radius: 20px;
+    border-radius: 100px;
     background-color: #E7B72F;
     cursor:pointer;
     font-family: inherit;
@@ -631,14 +631,16 @@ header{
 }
 
 .læs-mere-knap {
-    padding: 20px 40px;
-    border: none;
-    border-radius: 20px;
-    background-color: #E7B72F;
-    cursor:pointer;
-    font-family: inherit;
+    background-color: #E2BB38;
+    color: black;
     font-size: 18px;
-    font-weight: 500;
+    border: 0;
+    border-radius: 100px;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    text-decoration: none;
     box-shadow: 0 4px 15px rgba(0,0,0,0.10);
 
 }
