@@ -205,8 +205,9 @@ header{
     align-items: center;
 
     position: absolute;
-    right: 500px;
     top: 400px;
+    left: 50%;
+    margin-left: 250px;
     
 }
 
