@@ -1,5 +1,7 @@
-* {
-box-sizing: border-box;
+
+
+* { 
+box-sizing: border-box; 
 margin: 0;
 }
 
@@ -7,8 +9,8 @@ body {
     background-color: #F5EDE5;
 }
 
-/*------------------------------- Header start -------------------------------*/
-.hero {
+/*------------------------------- HEADER -------------------------------*/
+.hero { 
     min-height: 700px;
     background-image: url(/img.2/baggrund.jpg);
     background-size: 120%;
@@ -111,12 +113,12 @@ header{
     border-radius: 100px;
     width: 150px;
     padding: 12px 15px;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-weight:500;
     text-decoration: none;
-    margin-left: -40px;
+    margin-left: 20px;
     z-index: 1;
     box-shadow: 0 1px 1px;
 }
@@ -139,7 +141,6 @@ header{
 .solskin{
     width: 130px;
     display: block;
-    justify-content: center;
     margin: 90px auto 0 auto;
 }
 
@@ -149,7 +150,7 @@ h1{
     color: white;
     text-shadow: 0 2px 1px rgb(0, 26, 0);
 }
-/*------------------------------- Header slut -------------------------------*/
+/*------------------------------- HEADER SLUT -------------------------------*/
 
 
 
@@ -170,11 +171,11 @@ h1{
 .breadcrumb span {
     margin: 0 10px;
 }
-/*-------------------------------  BREADCRUMB ------------------------------- */
+/*-------------------------------  BREADCRUMB SLUT ------------------------------- */
 
 
 
-/*------------------------------- Vi ville også ud og se verden section -------------------------------*/
+/*------------------------------- VI VILLE OGSÅ UD OG SE VERDEN -------------------------------*/
 .vivilleogså {
     color: #36502A;
     text-align: center;
@@ -215,11 +216,11 @@ content: "";
     border-radius: 10px;
     /* gul linje under h2 i Vi ville også section */
 }
-/*------------------------------- VVOUOSV section SLUT -------------------------------*/
+/*------------------------------- VVOUOSV SLUT -------------------------------*/
 
 
 
-/*------------------------------- Vores mission section -------------------------------*/
+/*------------------------------- VORES MISSION -------------------------------*/
 .voresmission {
     position: relative;
     background-color: #36502A;
@@ -290,11 +291,11 @@ h2 {
     height: auto;
     margin: 0;
 }
-/*------------------------------- Vores mission SLUT -------------------------------*/
+/*------------------------------- VORES MISSION SLUT -------------------------------*/
 
 
 
-/*------------------------------- Mød menneskerne bag -------------------------------*/
+/*------------------------------- MØD MENNESKERNE BAG -------------------------------*/
 .mødmenneskerne {
     position: relative;
     text-align: center;
@@ -343,11 +344,11 @@ h2 {
     margin: 0;
     font-family:"montserrat", sans-serif;
 }
-/*------------------------------- Mød menneskerne bag SLUT -------------------------------*/
+/*------------------------------- MØD MENNESKERNE BAG SLUT -------------------------------*/
 
 
 
-/*-------------------------------  Lige her, i tal ------------------------------- */
+/*-------------------------------  LIGE HER, I TAL ------------------------------- */
 .ligeherital{
     position: relative;
     min-height: 800px;
@@ -418,11 +419,11 @@ h2 {
     margin: 0;
 }
 
-/*-------------------------------  Lige her, i tal SLUT ------------------------------- */
+/*-------------------------------  LIGE HER, I TAL SLUT ------------------------------- */
 
 
 
-/*------------------------------- Hvad siger andre section -------------------------------*/
+/*------------------------------- HVAD SIGER ANDRE -------------------------------*/
 .hvadsigerandre{
     min-height: 650px;
     background-color: #EACDB0;
@@ -502,11 +503,11 @@ margin-bottom: 15px;
     object-fit: cover;
     border-radius: 8px;
 }
-/*------------------------------- Hvad siger andre section SLUT -------------------------------*/
+/*------------------------------- HVAD SIGER ANDRE SLUT -------------------------------*/
 
 
 
-/*------------------------------- Tilmeld nyhedsbrev -------------------------------*/
+/*------------------------------- TILMELD NYHEDSBREV -------------------------------*/
 .inspirations-sektion{
     display: flex;
     align-items: center;
@@ -577,11 +578,11 @@ margin-bottom: 15px;
 .lilletekst a{
     color: #60899e;
 }
-/*------------------------------- Tilmeld nyhedsbrev SLUT -------------------------------*/
+/*------------------------------- TILMELD NYHEDSBREV SLUT -------------------------------*/
 
 
 
-/*------------------------------- Footer start -------------------------------*/
+/*------------------------------- FOOTER -------------------------------*/
 footer {
     background-color: #315F78;
     color: white;
@@ -637,4 +638,4 @@ footer {
     height: 20px;
     object-fit: contain;
 }
-/*------------------------------- Footer SLUT -------------------------------*/
+/*------------------------------- FOOTER SLUT -------------------------------*/
