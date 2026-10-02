@@ -153,6 +153,27 @@ h1{
 
 
 
+/*-------------------------------  BREADCRUMB ------------------------------- */
+.breadcrumb {
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #315f78;
+    max-height: 40px;
+    background-color: #eee2d6;
+}
+.breadcrumb a {
+    color: #315f78;
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    margin: 0 10px;
+}
+/*-------------------------------  BREADCRUMB ------------------------------- */
+
+
+
 /*------------------------------- Vi ville også ud og se verden section -------------------------------*/
 .vivilleogså {
     color: #36502A;
@@ -272,13 +293,24 @@ h2 {
 /*------------------------------- Vores mission SLUT -------------------------------*/
 
 
-/* Mød menneskerne bag */
+
+/*------------------------------- Mød menneskerne bag -------------------------------*/
 .mødmenneskerne {
     position: relative;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 120px;
+    color: #36502A;
 }
 
+.person h4::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #E2BB38;
+    margin: 10px auto 15px;
+    border-radius: 10px;
+}
 
 .mødmenneskerne h3{
     font-size: 40px;
@@ -295,7 +327,7 @@ h2 {
 
 .person {
     text-align: center;
-    width: 200px;
+    width: 250px;
 }
 
 .person img{
@@ -304,13 +336,16 @@ h2 {
 
 .person h4{
     margin: 20px 0 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .person p{
     margin: 0;
     font-family:"montserrat", sans-serif;
 }
+/*------------------------------- Mød menneskerne bag SLUT -------------------------------*/
+
+
 
 /*-------------------------------  Lige her, i tal ------------------------------- */
 .ligeherital{
@@ -344,7 +379,7 @@ h2 {
 .topaflogopng {
     position: absolute;
     height: 60px;
-    top: 220px;
+    top: 225px;
     left: 700px;
     z-index: 1;
 }
@@ -551,6 +586,7 @@ footer {
     background-color: #315f78;
     color: white;
     padding: 50px 40px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .footer-indhold {
