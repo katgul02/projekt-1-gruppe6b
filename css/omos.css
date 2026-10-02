@@ -583,10 +583,10 @@ margin-bottom: 15px;
 
 /*------------------------------- Footer start -------------------------------*/
 footer {
-    background-color: #315f78;
+    background-color: #315F78;
     color: white;
     padding: 50px 40px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat",sans-serif;
 }
 
 .footer-indhold {
@@ -623,5 +623,18 @@ footer {
 .footer-logo img {
     width: 100px;
     height: auto;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.social-link img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 /*------------------------------- Footer SLUT -------------------------------*/
