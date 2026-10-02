@@ -322,11 +322,13 @@ h2 {
 
 .bokspng{
     position: absolute;
+    border-radius: 25px;
     z-index: 0;
-    width: 80%;
-    height: 400px;
-    left: 10%;
+    width: 70%;
+    height: 420px;
+    left: 15%;
     object-fit: fill;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.10);
 }
 
 .ligeherital h3{
@@ -370,7 +372,7 @@ h2 {
 
 .tal-item h4{
     font-family: "Playfair Display", serif;
-    font-size: 27px;
+    font-size: 38px;
     color: #36502A;
     margin: 10px 0 0;
 }
