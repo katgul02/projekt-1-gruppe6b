@@ -227,6 +227,7 @@ header{
     left: 50%;
     margin-left: 250px;
     
+    
 }
 
 .optjenpoint p {
@@ -645,7 +646,7 @@ header{
     font-family: "Montserrat", sans-serif;
     font-weight:500;
     text-decoration: none;
-    box-shadow: 0 1px 1px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.10);
 }
    .mikroeventyr-knap:hover{
     background-color: #BF9C25;
